@@ -1,0 +1,110 @@
+body{
+    background-image: url("../imagenes/fond.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-attachment: fixed;
+    background-color: rgb(33, 29, 29);
+}
+header{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.cardd{
+    display: grid;
+    grid-template-columns: repeat(4,1fr) ;
+    gap: 10px;
+}
+.ed-menu a:hover{
+    background: #778899;
+    color: #fff;
+    transition: all 0.5s ease;
+}
+.vid iframe{
+    width: 1fr;
+
+}
+p{
+    text-align: justify;
+}
+li, p{
+    font-family: cursive;
+    font-size: 20px;
+    color: #fff;
+}
+h1,h2,h3,h4{
+    text-align: center;
+    font-family: cursive;
+    color: #fff;
+    text-shadow: 0px 0px 14px red;
+}
+iframe{
+    width: 100%;
+}
+.redes{
+    text-align: center;
+}
+.redes a {
+    width: 100px;
+	background: #ad3838bd;
+	font-weight: bold;
+	color: white;
+	border: 0 none;
+	border-radius: 10px;
+	cursor: pointer;
+	padding: 10px;
+	margin: 10px 5px;
+	text-decoration: none;
+	font-size: 14px;
+    font-family: cursive;
+}
+.redes a:hover{
+    background-color: rgb(26, 93, 71);
+    cursor: pointer;
+}
+a{
+    text-align: center;
+    color: #fff;
+}
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(4,1fr) ;
+    gap: 10px;
+    
+} 
+.contenedor1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr) ;
+    gap: 10px;
+    
+} 
+@media screen and (max-width:1200px){
+    .contenedor{
+        display: grid;
+        grid-template-columns: repeat(3,1fr) ;
+        gap: 10px;
+        
+    } 
+}
+@media screen and (max-width:900px){
+    .contenedor{
+        display: grid;
+        grid-template-columns: repeat(2,1fr) ;
+        gap: 10px;
+        
+    } 
+    .contenedor1{
+        display: grid;
+        grid-template-columns: repeat(1,1fr) ;
+        gap: 10px;
+        
+    } 
+}
+@media screen and (max-width:700px){
+    .contenedor{
+        display: grid;
+        grid-template-columns: repeat(1,1fr) ;
+        gap: 10px;
+        
+    } 
+}
